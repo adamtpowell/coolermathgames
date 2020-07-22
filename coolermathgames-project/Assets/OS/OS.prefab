@@ -65,7 +65,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: fc9221afee9d6d24c866efeb73f35358, type: 2}
+  m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 62706326460381254}
   - component: {fileID: 62706326460381255}
   m_Layer: 0
-  m_Name: windows-95-placeholder
+  m_Name: chrome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -173,6 +173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8868912493070218519}
+  - component: {fileID: 7103336841712102643}
   m_Layer: 0
   m_Name: OS
   m_TagString: Untagged
@@ -196,3 +197,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7103336841712102643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4291323249269985671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b161108ad0e68cd4d919f9713cab491b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chrome: {fileID: 62706326460381252}

@@ -6,6 +6,7 @@ public class MonitorController : MonoBehaviour {
 
 
     public GameObject OSPrefab;
+    public GameObject gameRenderer;
 
     // Create a camera / OSController / rendertexture to use for this monitor, then assign it.
     // Called by ComputerTurnOner to populate every monitor in the scene.
@@ -18,6 +19,6 @@ public class MonitorController : MonoBehaviour {
         RenderTexture rt = new RenderTexture(320, 240, 16, RenderTextureFormat.ARGB32);
         rt.filterMode = FilterMode.Point;
         OS.transform.Find("camera").GetComponent<Camera>().targetTexture = rt;
-        this.GetComponent<MeshRenderer>().sharedMaterial.mainTexture = rt;
+        gameRenderer.GetComponent<MeshRenderer>().sharedMaterial.mainTexture = rt;
     }
 }

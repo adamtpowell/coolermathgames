@@ -2103,8 +2103,8 @@ Transform:
   - {fileID: 774065315}
   - {fileID: 724254133}
   - {fileID: 415871927}
-  - {fileID: 2136034092}
   - {fileID: 1398730473}
+  - {fileID: 2136034092}
   - {fileID: 668233674}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -2312,6 +2312,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 095c1a19252e2014f84649d0366be36c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b66b6beebec07b44b9c46ba95142af3, type: 2}
     - target: {fileID: 919132149155446097, guid: 095c1a19252e2014f84649d0366be36c,
         type: 3}
       propertyPath: m_Name
@@ -8670,6 +8675,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 095c1a19252e2014f84649d0366be36c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b66b6beebec07b44b9c46ba95142af3, type: 2}
     - target: {fileID: 919132149155446097, guid: 095c1a19252e2014f84649d0366be36c,
         type: 3}
       propertyPath: m_Name

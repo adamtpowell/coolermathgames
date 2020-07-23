@@ -16,7 +16,7 @@ public class MonitorController : MonoBehaviour {
         GameObject OS = Instantiate(OSPrefab, offset, Quaternion.identity);
         
         // Assign the render texture to place the OS onto the monitor
-        RenderTexture rt = new RenderTexture(320, 240, 16, RenderTextureFormat.ARGB32);
+        RenderTexture rt = new RenderTexture(640, 480, 16, RenderTextureFormat.ARGB32);
         rt.filterMode = FilterMode.Point;
         OS.transform.Find("camera").GetComponent<Camera>().targetTexture = rt;
         gameRenderer.GetComponent<MeshRenderer>().sharedMaterial.mainTexture = rt;

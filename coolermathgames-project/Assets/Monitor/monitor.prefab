@@ -155,8 +155,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60697648de11a744bc128933f362d45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OSPrefab: {fileID: 0}
-  gameRenderer: {fileID: 0}
+  OSPrefab: {fileID: 4291323249269985671, guid: 301d5f0946979df4eb1386b58e661b3d,
+    type: 3}
+  gameRenderer: {fileID: 9008116348134748296}
 --- !u!1 &9008116348275720671
 GameObject:
   m_ObjectHideFlags: 0

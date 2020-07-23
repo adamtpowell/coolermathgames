@@ -25,4 +25,7 @@ public class TeacherAI : MonoBehaviour
 
        transform.localRotation = Quaternion.Euler(0f, rotation, 265f);
     }
+    void OnCollisionEnter(Collision other) {
+        print("Detected collision");
+    }
 }
